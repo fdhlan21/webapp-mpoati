@@ -17,7 +17,7 @@
                             <th colspan="3">DM</th>
                             <th colspan="4">Anemia</th>
                             <th colspan="11">HEADSSSS</th>
-                            <th colspan="1">Aksi</th>
+                            <th colspan="1">Action</th>
                          
                            
                         </tr>

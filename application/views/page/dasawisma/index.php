@@ -26,7 +26,7 @@
                             <th rowspan="2">Jumlah Warga Pindah</th>
                             <th rowspan="2">Jumlah Warga Pendatang</th>
                             <th colspan="10">Menggerakkan Partisipasi Warga dalam Pelaksanaan Kegiatan 10 Program Pokok PKK</th>
-                            <th rowspan="2">Aksi</th>
+                            <th rowspan="2">Action</th>
                         </tr>
                         <tr>
                             <th>Kegiatan Penghayatan dan Pengamalan Pancasila</th>

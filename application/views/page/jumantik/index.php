@@ -22,7 +22,7 @@
                             <th>Kendala yang dihadapi</th>
                             <th>Usul/saran</th>
                             <th>ABJ : Jumlah rumah (-) jentik : jumlah seluruh rumah x 100%</th>
-                            <th>Aksi</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>

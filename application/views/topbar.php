@@ -26,7 +26,7 @@
                             <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'PosyanduRemaja' ? 'active' : '' ?>" href="<?= base_url('PosyanduRemaja'); ?>" style="font-family: 'Poppins', sans-serif;">Posyandu Remaja</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'Jumantik' ? 'active' : '' ?>" href="<?= base_url('Jumantik'); ?>" style="font-family: 'Poppins', sans-serif;">Jumatik</a>
+                            <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'Jumantik' ? 'active' : '' ?>" href="<?= base_url('Jumantik'); ?>" style="font-family: 'Poppins', sans-serif;">Jumantik</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'Dasawisma' ? 'active' : '' ?>" href="<?= base_url('Dasawisma'); ?>" style="font-family: 'Poppins', sans-serif;">Dasawisma</a>
