@@ -90,11 +90,21 @@
         @media (max-width: 480px) {
             .login-container {
                 padding: 10px;
+             
             }
 
             .login-card {
                 padding: 10px;
             }
+
+            .logo img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            align-items:center;
+            align-self:center;
+        }
+
         }
 
         @media (min-width: 769px) {

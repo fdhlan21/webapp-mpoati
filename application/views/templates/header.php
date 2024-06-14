@@ -339,6 +339,19 @@
             margin-bottom: 10px;
         }
         
+        .nav-link.active {
+            background-color: #0072B4;
+            color: white !important;
+            border-color: #0072B4;
+        }
+
+        .nav-link.active, .nav-link:hover {
+            background-color: #0072B4;
+            color: white !important;
+            border-color: #0072B4;
+        }
+        
+        
     </style>
 </head>
 

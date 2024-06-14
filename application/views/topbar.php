@@ -17,22 +17,22 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-primary mx-2" href="<?= base_url('Dashboard'); ?>" style="font-family: 'Poppins', sans-serif;">Home</a>
+                            <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'Dashboard' ? 'active' : '' ?>" href="<?= base_url('Dashboard'); ?>" style="font-family: 'Poppins', sans-serif;">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-primary mx-2" href="<?= base_url('PosyanduBalita'); ?>" style="font-family: 'Poppins', sans-serif;">Posyandu Balita</a>
+                            <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'PosyanduBalita' ? 'active' : '' ?>" href="<?= base_url('PosyanduBalita'); ?>" style="font-family: 'Poppins', sans-serif;">Posyandu Balita</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-primary mx-2" href="<?= base_url('PosyanduRemaja'); ?>" style="font-family: 'Poppins', sans-serif;">Posyandu Remaja</a>
+                            <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'PosyanduRemaja' ? 'active' : '' ?>" href="<?= base_url('PosyanduRemaja'); ?>" style="font-family: 'Poppins', sans-serif;">Posyandu Remaja</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-primary mx-2" href="<?= base_url('Jumantik'); ?>" style="font-family: 'Poppins', sans-serif;">Jumatik</a>
+                            <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'Jumantik' ? 'active' : '' ?>" href="<?= base_url('Jumantik'); ?>" style="font-family: 'Poppins', sans-serif;">Jumatik</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-primary mx-2" href="<?= base_url('Dasawisma'); ?>" style="font-family: 'Poppins', sans-serif;">Dasawisma</a>
+                            <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'Dasawisma' ? 'active' : '' ?>" href="<?= base_url('Dasawisma'); ?>" style="font-family: 'Poppins', sans-serif;">Dasawisma</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-primary mx-2" href="<?= base_url('Profile'); ?>" style="font-family: 'Poppins', sans-serif;">Profile</a>
+                            <a class="nav-link btn btn-outline-primary mx-2 <?= $this->uri->segment(1) == 'Profile' ? 'active' : '' ?>" href="<?= base_url('Profile'); ?>" style="font-family: 'Poppins', sans-serif;">Profile</a>
                         </li>
                     </ul>
                 </div>
@@ -42,6 +42,7 @@
             </div>
         </nav>
         <!-- End of Topbar -->
+
 <script>
     document.querySelector('.navbar-toggler').addEventListener('click', function () {
         const brandText = document.getElementById('brandText');
